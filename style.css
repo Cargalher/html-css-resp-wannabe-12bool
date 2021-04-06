@@ -74,11 +74,10 @@ img {
 
 /*  MEDIA QUERY */
 @media screen and (max-width:767px){ 
-  *{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  .row {
+   
+    margin-top: 0;
+}
   
   /* BLOCCO LEZIONI & steps& why*/
   #lezioni .row>.left,
@@ -88,7 +87,7 @@ img {
   #steps .row>.right, 
   #why .row>.first,
   #why .row>.second,
-  #why .row>.third{
+  #why .row>.third {
     width: 100%;
     float: none;
     margin-top: 20px;
