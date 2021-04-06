@@ -20,11 +20,11 @@ clear: both;
 }
 
 /* DEBUG */
-.dbg[class*="col-"]{
+/* .dbg[class*="col-"]{
      background-color: lightblue;
      border: 1px solid lightsalmon;
      height:300px;
-}
+} */
 
 [class*="col-"]{
     float:left;
